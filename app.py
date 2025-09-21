@@ -178,7 +178,7 @@ model_info = {
     "ResNet50": {"params": "25.6M", "accuracy": "97%", "speed": "Very Fast"},
     "MobileNetV3-Large-100": {"params": "5.5M", "accuracy": "95%", "speed": "Fast"},
     "EfficientNet-B0": {"params": "5.3M", "accuracy": "97%", "speed": "Very Fast"},
-    "ViT-Base-Patch16-224": {"params": "86.6M", "accuracy": "81%", "speed": "Medium"},
+    "ViT-Base-Patch16-224": {"params": "86.6M", "accuracy": "81%", "speed": "Very Fast"},
     "DenseNet121": {"params": "8.0M", "accuracy": "96%", "speed": "Fast"}
 }
 
@@ -464,7 +464,7 @@ st.markdown("""
             </div>
             <div style="flex: 1; min-width: 200px;">
                 <h4 style="color: #667eea;">🎯 ความแม่นยำ</h4>
-                <p style="color: #666; font-size: 0.9rem;">ความแม่นยำสูงสุด 96.1%<br>ด้วย Vision Transformer</p>
+                <p style="color: #666; font-size: 0.9rem;">ความแม่นยำสูงสุด 97%<br>ด้วย Vision Transformer</p>
             </div>
             <div style="flex: 1; min-width: 200px;">
                 <h4 style="color: #667eea;">⚡ ประสิทธิภาพ</h4>
