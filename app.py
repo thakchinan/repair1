@@ -473,7 +473,7 @@ st.markdown("""
         </div>
         <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #dee2e6;">
             <p style="color: #999; font-size: 0.8rem; margin: 0;">
-                © 2024 Weather Classifier AI | พัฒนาด้วย ❤️ โดย AI Technology
+                © 2024 Weather Classifier AI | พัฒนาโดยคิมและภัทร
             </p>
         </div>
     </div>
