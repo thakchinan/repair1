@@ -175,11 +175,11 @@ arch = st.sidebar.selectbox("เลือกโมเดล", list(WEIGHT_URLS.k
 
 # Model Information
 model_info = {
-    "ResNet50": {"params": "25.6M", "accuracy": "95.2%", "speed": "Fast"},
-    "MobileNetV3-Large-100": {"params": "5.5M", "accuracy": "94.8%", "speed": "Very Fast"},
-    "EfficientNet-B0": {"params": "5.3M", "accuracy": "95.5%", "speed": "Fast"},
-    "ViT-Base-Patch16-224": {"params": "86.6M", "accuracy": "96.1%", "speed": "Medium"},
-    "DenseNet121": {"params": "8.0M", "accuracy": "94.9%", "speed": "Medium"}
+    "ResNet50": {"params": "25.6M", "accuracy": "97%", "speed": "Very Fast"},
+    "MobileNetV3-Large-100": {"params": "5.5M", "accuracy": "95%", "speed": "Fast"},
+    "EfficientNet-B0": {"params": "5.3M", "accuracy": "97%", "speed": "Very Fast"},
+    "ViT-Base-Patch16-224": {"params": "86.6M", "accuracy": "81%", "speed": "Medium"},
+    "DenseNet121": {"params": "8.0M", "accuracy": "96%", "speed": "Fast"}
 }
 
 info = model_info[arch]
